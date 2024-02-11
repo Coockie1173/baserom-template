@@ -1,0 +1,24 @@
+# Ignore backups, generated files and downloaded files
+Backup/*
+ExGraphics/*
+Graphics/*
+Other/*
+sysLMRestore/*
+Tools/AddmusicK_1.0.9/*
+Tools/Asar/*
+Tools/Flips/*
+Tools/GPS/*
+Tools/LunarMagic/*
+Tools/PIXI/*
+Tools/UberASMTool/*
+
+# Ignore ROM and it's attached data
+*.smc
+*.dsc
+*.msc
+*.mw2
+*.mwt
+*.s16
+*.smc~
+*.ssc
+*.bps
