@@ -129,6 +129,20 @@ if "!Action!"=="1" (
     ) else (
         echo -- UberASMTool already setup.
     )
+
+    :: Check if Grahpics editor exists and download if not
+    if not exist "!GRAPHIC_DIR!Graphic Editor.jar.exe" (
+        echo Graphics Editor not found, downloading...
+        powershell Invoke-WebRequest !GRAPHIC_DL! -OutFile !GRAPHIC_ZIP! >NUL
+        powershell Expand-Archive !GRAPHIC_ZIP! -DestinationPath !GRAPHIC_DIR! >NUL
+        :: Delete junk files
+        for %%a in (!GRAPHIC_JUNK!) do (del !GRAPHIC_DIR!%%a)
+        :: Delete Zip
+        ::del !GRAPHIC_ZIP!
+        echo Done.
+    ) else (
+        echo -- Graphics Editor already setup.
+    )
 )
 
 

@@ -6,15 +6,15 @@
 
 :: Asar
 set ASAR_DIR=!TOOLS_DIR!Asar\
-set ASAR_DL="https://dl.smwcentral.net/25953/asar181.zip"
-set ASAR_ZIP="asar181.zip"
+set ASAR_DL="https://dl.smwcentral.net/37443/asar191.zip"
+set ASAR_ZIP="asar191.zip"
 set ASAR_JUNK="LICENSE" "license-lgpl.txt" "license-gpl.txt" "license-wtfpl.txt" "README.txt"
 set ASAR_JUNK_DIR="ext" "dll" "docs"
 
 :: AddmusicK
-set AMK_DIR=!TOOLS_DIR!AddMusicK_1.0.9\
-set AMK_DL="https://dl.smwcentral.net/31558/AddmusicK%201.0.9.zip"
-set AMK_ZIP="AddmusicK_1.0.9.zip"
+set AMK_DIR=!TOOLS_DIR!AddMusicK_1.0.11\
+set AMK_DL="https://dl.smwcentral.net/37906/AddmusicK%201.0.11.zip"
+set AMK_ZIP="AddmusicK_1.0.11.zip"
 set AMK_JUNK="readme.html" "src.zip" "addmusicMRemover.pl"
 set AMK_JUNK_DIR="readme_files"
 
@@ -32,18 +32,23 @@ set GPS_JUNK="src.zip" "Changes.txt" "README.txt"
 
 :: Lunar Magic
 set LM_DIR=!TOOLS_DIR!LunarMagic\
-set LM_DL="https://fusoya.eludevisibility.org/lm/download/lm340.zip"
-set LM_ZIP="lm340.zip"
+set LM_DL="https://fusoya.eludevisibility.org/lm/download/lm351.zip"
+set LM_ZIP="lm351.zip"
 set LM_JUNK="readme.txt"
 
 :: PIXI
 set PIXI_DIR=!TOOLS_DIR!PIXI\
-set PIXI_DL="https://dl.smwcentral.net/32277/pixi_v1.40.zip"
-set PIXI_ZIP="pixi_v1.40.zip"
+set PIXI_DL="https://dl.smwcentral.net/37432/pixi_v1.42.zip"
+set PIXI_ZIP="pixi_v1.42.zip"
 set PIXI_JUNK="removedResources.txt" "CHANGELOG.html" "README.html" "CONTRIBUTING.html"
 
 :: UberASM Tool
 set UBER_DIR=!TOOLS_DIR!UberASMTool\
-set UBER_DL="https://dl.smwcentral.net/28974/UberASMTool16.zip"
-set UBER_ZIP="UberASMTool16.zip"
+set UBER_DL="https://dl.smwcentral.net/39036/UberASMTool21.zip"
+set UBER_ZIP="UberASMTool21.zip"
 set UBER_JUNK="readme.txt" "readme - library.txt" ".\level\test.asm" ".\level\test2.asm"
+
+set GRAPHIC_DIR=!TOOLS_DIR!\
+set GRAPHIC_DL="https://dl.smwcentral.net/15530/Graphic%20Editor.zip"
+set GRAPHIC_ZIP="GraphicEditor.zip"
+set GRAPHIC_JUNK=""

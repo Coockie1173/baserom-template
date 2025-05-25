@@ -11,6 +11,7 @@ Tools/GPS/*
 Tools/LunarMagic/*
 Tools/PIXI/*
 Tools/UberASMTool/*
+Tools/GraphicsEditor/*
 
 # Ignore ROM and it's attached data
 *.smc
